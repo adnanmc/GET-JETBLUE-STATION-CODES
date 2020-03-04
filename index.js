@@ -27,7 +27,7 @@ const getResults = async () => {
   });
   let finalData = JSON.stringify(data);
 //   console.log(finalData);
-  let fileName = "stationCode.json"
+  let fileName = "stationCodes.json"
   fs.writeFile(fileName, finalData, "utf8", err => {
     if (err) {
       console.log(err);
