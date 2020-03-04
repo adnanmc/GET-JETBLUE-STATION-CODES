@@ -1,0 +1,27 @@
+{
+  "name": "get-jetblue-stattion-codes",
+  "version": "1.0.0",
+  "description": "Script to get the list of airport codes used by jetBlue Airways from their website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnanmc/GET-JETBLUE-STATTION-CODES.git"
+  },
+  "keywords": [
+    "jetBlue",
+    "airport codes"
+  ],
+  "author": "Mohammed Adnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adnanmc/GET-JETBLUE-STATTION-CODES/issues"
+  },
+  "homepage": "https://github.com/adnanmc/GET-JETBLUE-STATTION-CODES#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
